@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:Data::ICal 0.22
+X-PUBLISHED-TTL:1440
+X-WR-CALDESC:Solid Waste
+X-WR-CALNAME:6 Hefferon Crt\, Brampton
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20190822
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-08-22-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage and organics
+DTSTART;VALUE=DATE:20190829
+SUMMARY:Garbage and organics
+UID:2019-08-29-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20190906
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-09-06-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage and organics
+DTSTART;VALUE=DATE:20190912
+SUMMARY:Garbage and organics
+UID:2019-09-12-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20190919
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-09-19-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, garbage exemption day\, and organics
+DTSTART;VALUE=DATE:20190926
+SUMMARY:Garbage\, garbage exemption day\, and organics
+UID:2019-09-26-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191003
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-10-03-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191010
+SUMMARY:Garbage\, organics\, and yard waste
+UID:2019-10-10-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191018
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-10-18-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191024
+SUMMARY:Garbage\, organics\, and yard waste
+UID:2019-10-24-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, battery pickup day\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191031
+SUMMARY:Recycling\, battery pickup day\, organics\, and yard waste
+UID:2019-10-31-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191107
+SUMMARY:Garbage\, organics\, and yard waste
+UID:2019-11-07-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191114
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-11-14-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191121
+SUMMARY:Garbage\, organics\, and yard waste
+UID:2019-11-21-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191128
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-11-28-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191205
+SUMMARY:Garbage\, organics\, and yard waste
+UID:2019-12-05-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling\, organics\, and yard waste
+DTSTART;VALUE=DATE:20191212
+SUMMARY:Recycling\, organics\, and yard waste
+UID:2019-12-12-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Garbage and organics
+DTSTART;VALUE=DATE:20191219
+SUMMARY:Garbage and organics
+UID:2019-12-19-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Recycling and organics
+DTSTART;VALUE=DATE:20191228
+SUMMARY:Recycling and organics
+UID:2019-12-28-PeelRegionON-waste-@recollect.net
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Organics
+DTSTART;VALUE=DATE:20200103
+SUMMARY:Organics
+UID:2020-01-03-PeelRegionON-waste-@recollect.net
+END:VEVENT
+END:VCALENDAR
