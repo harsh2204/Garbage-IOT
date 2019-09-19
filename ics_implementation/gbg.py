@@ -4,6 +4,7 @@ import urequests
 import ntptime
 import machine
 import os
+import ujson
 
 rtc = machine.RTC()
 
@@ -15,9 +16,12 @@ def get_date():
 def get_garbage_cal(): #In the end we can trigger this through a hidden button press
   endpoint = 'https://recollect.a.ssl.fastly.net/api/places/A40195C4-6C71-11E9-994E-10946165592B/services/1063/events.en.ics'
   
+  if 'cal.json' in os.listdir('.'):
+    os.remove('cal.json')
+  
   res = urequests.get(endpoint)
   print(len(res.content))
-  with open('cal.json', 'wb') as f:
+  with open('cal.ics', 'wb') as f:
     f.write(res.content)
   
   
@@ -28,12 +32,14 @@ def get_desc_items(desc):
   else:
       evs = desc.split(' and ') 
   return evs  
-def get_events():
+
+
+def set_events():
   events = {}
-  if 'cal.json' not in os.listdir('.'):
+  if 'cal.ics' not in os.listdir('.'):
     print("Please download the calendar before running a query")
     return None
-  with open('cal.json', 'r') as f:    
+  with open('cal.ics', 'r') as f:    
     data = f.read().split('\n')
     i = 0
     while i < len(data):      
@@ -48,7 +54,21 @@ def get_events():
         else:
           events[desc].append(date)
       i = i + 1
-    return events
+    # return events
+    with open('cal.json', 'w') as outf:
+      s = ujson.dumps(events)
+      outf.write(s)
+  
+
+def get_events():
+  if 'cal.json' not in os.listdir('.'): #Assumes cal.ics is in the directory
+    print('cal.json not found')
+    set_events()
+  with open('cal.json', 'r') as f:
+    print('Loading local cache events')
+    return ujson.loads(f.read())
+
+
 def get_garbage():
   now = [int(x) for x in get_date().split('-')]
   evs = get_events()
@@ -80,3 +100,4 @@ def get_garbage():
           #  print(info[i])
             
   return dates[-1]
+
