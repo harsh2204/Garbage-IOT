@@ -1,4 +1,3 @@
-
 # This file is executed on every boot (including wake-boot from deepsleep)
 import os
 import uos, machine
@@ -6,8 +5,10 @@ from machine import Pin, I2C
 import ssd1306
 import network
 import dht
+import esp
 
 
+esp.sleep_type(esp.SLEEP_LIGHT)
 try:
   import usocket as socket
 except:
@@ -47,7 +48,7 @@ print(station.ifconfig())
 i2c = I2C(-1, Pin(4), Pin(5))
 
 oled = ssd1306.SSD1306_I2C(128, 32, i2c)
-
+oled.poweron()
 oled.fill(0)
 
 oled.text('Garbage Boi', 0, 0)
@@ -58,6 +59,3 @@ oled.show()
 
 # Uncomment the following to run webserver on boot
 #exec(open('./example.py').read(),globals())
-
-
-
