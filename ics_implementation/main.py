@@ -3,7 +3,7 @@ from time import sleep, sleep_ms
 from machine import Timer, Pin
 import machine
 
-#USE THIS https://github.com/peterhinch/micropython-async/blob/master/DRIVERS.md
+#TODO: USE THIS https://github.com/peterhinch/micropython-async/blob/master/DRIVERS.md
 
 TIMEOUT = 5#s
 
