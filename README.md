@@ -6,7 +6,7 @@ The project also goes through the process of updating a local proxy of the api d
 
 This way, we can completely switch between data-saver and latest-updates mode (the switching function has not been implemented, however the individual ideas have been shown to work in isolation). 
 
-<img src="https://raw.githubusercontent.com/harsh2204/Garbage-IOT/master/garbo.png" width="500" height="666">
+![image](https://raw.githubusercontent.com/harsh2204/Garbage-IOT/master/garbo.png)
 
 ---
 
